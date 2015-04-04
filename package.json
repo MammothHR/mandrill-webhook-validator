@@ -1,0 +1,42 @@
+{
+  "name": "mandrill-webhook-validator",
+  "description": "Validator functionality for signed mandrill webhook requests.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/scryptmouse/mandrill-webhook-validator",
+  "author": {
+    "name": "Alexa Grey",
+    "email": "devel@mouse.vc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/scryptmouse/mandrill-webhook-validator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/scryptmouse/mandrill-webhook-validator/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/scryptmouse/mandrill-webhook-validator/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/mandrill-webhook-validator",
+  "engines": {
+    "node": ">= 0.10.28"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "glob": "^5.0.3",
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.11.1",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-watch": "~0.6.1",
+    "node-mocks-http": "^1.2.7"
+  },
+  "keywords": [],
+  "dependencies": {
+    "lodash": "^3.6.0"
+  }
+}
