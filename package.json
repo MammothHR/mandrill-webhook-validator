@@ -1,6 +1,6 @@
 {
   "name": "mandrill-webhook-validator",
-  "description": "Validator functionality for signed mandrill webhook requests.",
+  "description": "Validator functionality for mandrill webhook signatures.",
   "version": "0.1.0",
   "homepage": "https://github.com/scryptmouse/mandrill-webhook-validator",
   "author": {
@@ -22,7 +22,7 @@
   ],
   "main": "lib/mandrill-webhook-validator",
   "engines": {
-    "node": ">= 0.10.28"
+    "node": ">= 0.8.0"
   },
   "scripts": {
     "test": "grunt nodeunit"
@@ -35,7 +35,7 @@
     "grunt-contrib-watch": "~0.6.1",
     "node-mocks-http": "^1.2.7"
   },
-  "keywords": [],
+  "keywords": ["mandrill", "webhooks", "webhook", "mailchimp", "express"],
   "dependencies": {
     "lodash": "^3.6.0"
   }
